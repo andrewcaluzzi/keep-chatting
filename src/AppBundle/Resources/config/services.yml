@@ -1,0 +1,4 @@
+services:
+    game_manager:
+        class: AppBundle\Service\GameManager
+        arguments: [ @doctrine.orm.entity_manager ]
